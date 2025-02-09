@@ -1,5 +1,3 @@
-# reactnative-weather-app
-
 # 🌤 React Native Weather App
 
 A simple **Weather App** built using **React Native**, **Expo**, and the **OpenWeatherMap API**. This app allows users to enter a city name and fetch the current weather details.
