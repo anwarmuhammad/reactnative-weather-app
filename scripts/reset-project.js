@@ -1,7 +1,3 @@
-import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
-
 #!/usr/bin/env node
 
 /**
@@ -34,16 +30,14 @@ export default function Index() {
       <Text>Edit app/index.tsx to edit this screen.</Text>
     </View>
   );
-};
-
+}
 `;
 
 const layoutContent = `import { Stack } from "expo-router";
 
 export default function RootLayout() {
   return <Stack />;
-};
-
+}
 `;
 
 const rl = readline.createInterface({
